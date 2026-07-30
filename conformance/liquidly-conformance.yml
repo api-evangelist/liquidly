@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.liquidly.com/Legal
+notes: Liquidly publishes no API and no technical specification, so the usual API
+  standards (OAuth2, OIDC, RFC 9457, JSON:API, pagination, idempotency) cannot be
+  asserted either way. What Liquidly does publish is a financial-services regulatory
+  compliance posture on its Legal / Regulatory Disclosures page, captured here.
+standards:
+- id: finra-broker-dealer
+  conforms: true
+  evidence: 'Broker-dealer services offered by Liquidly IAS, LLC, registered with FINRA;
+    BrokerCheck referenced on https://www.liquidly.com/Legal'
+- id: sipc-membership
+  conforms: true
+  evidence: Liquidly IAS, LLC is a member of SIPC per https://www.liquidly.com/Legal
+- id: usa-patriot-act-cip
+  conforms: true
+  evidence: 'Customer Identification Program disclosure ("Important Information about
+    New Account Opening Procedures") on https://www.liquidly.com/Legal'
+- id: business-continuity-plan
+  conforms: true
+  evidence: Business Continuity Planning disclosure, reviewed annually, on https://www.liquidly.com/Legal
+- id: oauth2
+  conforms: false
+  evidence: no published API or securitySchemes
+- id: openid-connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returns 404 on all hosts
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no published API
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on all hosts
+- id: soc2
+  conforms: false
+  evidence: no trust center or SOC 2 attestation published
+- id: iso-27001
+  conforms: false
+  evidence: no trust center or ISO 27001 certification published
