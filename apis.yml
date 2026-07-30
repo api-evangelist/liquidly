@@ -1,22 +1,81 @@
 aid: liquidly
 name: Liquidly
-description: Liquidly is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Liquidly (Liquidly, Inc.) is a New York based financial technology company
+  building infrastructure for illiquid assets — a permission-based secondary marketplace
+  that lets holders of private fund interests transact without disrupting the fund.
+  The platform serves three sides: fund managers, who get a streamlined and centrally
+  supervised transfer process, market data, and the flexibility to structure longer
+  lock-up vehicles; seller investors, who get a manager-approved selling process,
+  access to a network of prospective buyers, and standardized commercial terms; and
+  buyer investors, who get manager-granted asset permissions, standardized diligence
+  materials, and technology-enabled execution. Liquidly targets the secondary market
+  for the roughly $13.1 trillion invested in private funds across buyouts, venture
+  capital, real estate, private debt, infrastructure, and growth. Broker-dealer services
+  are offered through Liquidly IAS, LLC, registered with FINRA and a member of SIPC.
+  Liquidly is backed by Anthemis, Portage Ventures, Village Global, and AmTrust Financial.
+  As of this enrichment pass Liquidly publishes no public API, developer portal, SDKs,
+  or technical documentation; the product is reached through an authenticated web
+  application.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.liquidly.com/img/v2/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/liquidly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Private Markets
+- Secondary Market
+- Alternative Assets
+- Private Equity
+- Venture Capital
+- Marketplace
+- Broker-Dealer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.liquidly.com/
+- type: Login
+  url: https://demo.liquidly.com/Account/Login
+- type: Support
+  url: https://www.liquidly.com/Contact
+- type: TermsOfService
+  url: https://www.liquidly.com/Terms
+- type: PrivacyPolicy
+  url: https://www.liquidly.com/Privacy
+- type: Compliance
+  url: https://www.liquidly.com/Legal
+- type: Conformance
+  url: conformance/liquidly-conformance.yml
+- type: DomainSecurity
+  url: security/liquidly-domain-security.yml
+- type: LLMsTxt
+  url: llms/liquidly-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
