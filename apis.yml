@@ -51,7 +51,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Private Markets
 - Secondary Market
@@ -71,6 +71,7 @@ tags_raw:
 - Venture Capital
 - Marketplace
 - Broker-Dealer
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
